@@ -217,7 +217,7 @@ function showAdminPasswordModal() {
 
     // 修改标题为管理员验证
     const title = passwordModal.querySelector('h2');
-    if (title) title.textContent = '管理员验证';
+    if (title) title.textContent = '管理员验证密码';
     passwordModal.style.display = 'flex';
 
     // 设置表单提交处理
@@ -240,5 +240,3 @@ function showAdminPasswordModal() {
 document.addEventListener('DOMContentLoaded', function () {
     initPasswordProtection();
 });
-
-
