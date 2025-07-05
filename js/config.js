@@ -27,6 +27,11 @@ const API_SITES = {
         name: '电影天堂资源',
         detail: 'http://caiji.dyttzyapi.com', 
     },
+    m3u8zy: {
+        api: 'https://m3u8zy.com/api.php/provide/vod',
+        name: 'M3U8资源',
+        detail: 'https://m3u8zy.com', 
+    },
     ruyi: {
         api: 'https://cj.rycjapi.com/api.php/provide/vod',
         name: '如意资源',
@@ -39,10 +44,25 @@ const API_SITES = {
         api: 'https://tyyszy.com/api.php/provide/vod',
         name: '天涯资源',
     },
-    // xiaomaomi: {
-    //     api: 'https://zy.xiaomaomi.cc/api.php/provide/vod',
-    //     name: '小猫咪资源',
-    // },
+    fantuan: {
+        api: 'https://www.fantuan.tv/api.php/provide/vod',
+        name: '饭团影视',
+    },
+    xiaoshu: {
+        api: 'https://api.xiaoshuzy.com/api.php/provide/vod',
+        name: '小树资源',
+        detail: 'https://api.xiaoshuzy.com', 
+    },
+    xiaoying: {
+        api: 'https://api.xiaoyingzy.com/api.php/provide/vod',
+        name: '小影资源',
+        detail: 'https://api.xiaoyingzy.com', 
+    },
+    xiaoyou: {
+        api: 'https://api.xiaoyouzy.com/api.php/provide/vod',
+        name: '小优资源',
+        detail: 'https://api.xiaoyouzy.com',
+
     ffzy: {
         api: 'http://ffzy5.tv/api.php/provide/vod',
         name: '非凡影视',
