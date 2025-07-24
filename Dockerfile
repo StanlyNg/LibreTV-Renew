@@ -1,7 +1,7 @@
 FROM node:lts-alpine
 
-LABEL maintainer="LibreTV Team"
-LABEL description="LibreTV 软件平台"
+LABEL maintainer="TV Team"
+LABEL description="TV 软件平台"
 
 # 设置环境变量
 ENV PORT=8080
