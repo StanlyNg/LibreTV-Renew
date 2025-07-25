@@ -38,7 +38,7 @@ async function checkForUpdates() {
         let latestVersion;
         const VERSION_URL = {
             PROXY: 'https://raw.ihtw.moe/raw.githubusercontent.com/LibreSpark/TV/main/VERSION.txt',
-            DIRECT: 'https://raw.githubusercontent.com/LibreSpark/TV/main/VERSION.txt'
+            DIRECT: 'https://raw.githubusercontent.com/LibreSpark/LibreTV/main/VERSION.txt'
         };
         const FETCH_TIMEOUT = 1500;
         
